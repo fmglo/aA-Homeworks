@@ -1,19 +1,22 @@
 class Queue
 
   def initialize
-    @queue = []
+    @array = []
   end
 
   def enqueue(el)
-    @queue.unshift(el)
+    @array.unshift(el)
   end
 
   def dequeue
-    @queue.pop
+    @array.pop
   end
 
   def peek
-    @queue[-1]
+    @array[-1]
   end
+  private
+
+  attr_reader :array
 
 end

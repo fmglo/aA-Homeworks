@@ -1,17 +1,22 @@
 class Stack
   def initialize
-    @stack = []
+    @array = []
   end
 
   def push(el)
-    @stack << el
+    @array << el
   end
 
   def pop
-    @stack.pop
+    @array.pop
   end
 
   def peek
-    @stack[-1]
+    @array[-1]
   end
+  
+  private
+
+attr_reader :array
+
 end
