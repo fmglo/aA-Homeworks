@@ -1,5 +1,6 @@
 class Stack
   def initialize
+    @stack = []
   end
 
   def push(el)
@@ -8,6 +9,6 @@ class Stack
   def pop
   end
 
-  def poop
-  end 
+  def peek
+  end
 end
