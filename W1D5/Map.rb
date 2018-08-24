@@ -1,4 +1,7 @@
 def Map
+  def initialize
+    @array = []
+  end
   def set(key, value)
   end
 
@@ -9,5 +12,5 @@ def Map
   end
 
   def show
-  end 
+  end
 end
