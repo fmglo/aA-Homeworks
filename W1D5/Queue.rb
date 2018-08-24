@@ -1,4 +1,8 @@
-def Queue
+class Queue
+
+  def initialize
+    @queue = []
+  end
   def enqueue(el)
   end
 
@@ -6,5 +10,5 @@ def Queue
   end
 
   def peek
-  end  
+  end
 end
