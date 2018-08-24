@@ -6,5 +6,8 @@ class Stack
   end
 
   def pop
+  end
+
+  def poop
   end 
 end
